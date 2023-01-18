@@ -14,7 +14,24 @@ h1 {
     margin-bottom: 10px;
 }
 
+h1 a {
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    color: #0f509b;
+    font-style: italic;
+    font-size: 72px;
+}
+
 h2 {
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    font-style: bold;
+    display: block;
+    font-size: 60px;
+    text-align: center;
+}
+
+h3 {
     font-family: 'Libre Baskerville', serif;
     color: #0f509b;
     font-style: bold;
@@ -23,7 +40,7 @@ h2 {
     margin: 40px 15% 10px 15%;
 }
 
-h3 {
+h4 {
     font-family: 'Libre Baskerville', serif;
     display: block;
     font-style: italic;
@@ -31,7 +48,7 @@ h3 {
     margin: 40px 15% 10px 15%;
 }
 
-h4 {
+h5 {
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     letter-spacing: 12px;
@@ -72,14 +89,15 @@ p a {
     display: flex;
     margin: auto;
     padding: 0px;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 a.article {
     display: inline-flex;
     transition: 0.8s;
     width: 45%;
-    height: 180px;
+    min-height: 180px;
+    height: auto;
     border-radius: 25px;
     box-shadow: 20px 20px 40px #cac6bd;
     margin: 10px 2% 10px 2%;
