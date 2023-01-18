@@ -66,22 +66,38 @@ p {
     margin: 10px 15% 10px 15%;
 }
 
-a {
-    font-family: 'Libre Baskerville', serif;
-    color: #b42626;
-    font-style: italic;
-    text-decoration: none;
-    font-size: 24px;
-    margin: 10px 15% 10px 15%;
-}
-
 p a {
     font-family: 'Libre Baskerville', serif;
     color: #b42626;
     font-style: italic;
     text-decoration: none;
     font-size: 24px;
-    margin: 10px 4px 10px 4px;
+    margin: 10px 2px 10px 2px;
+}
+
+.menu {
+    width: 70%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu a {
+    transition: 0.8s;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 12px;
+    font-family: 'Public Sans', sans-serif;
+    color: #b42626;
+    font-size: 24px;
+    padding: 10px 100px 10px 100px;
+}
+
+.menu a:hover {
+    color: black;
 }
 
 .tiles {
