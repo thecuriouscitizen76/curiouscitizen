@@ -1,18 +1,26 @@
+body {
+    background-color: #f8f3e8;
+}
+
 h1 {
     font-family: 'Libre Baskerville', serif;
+    color: #0f509b;
     font-style: italic;
     font-size: 72px;
     display: block;
     width: 100%;
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-family: 'Libre Baskerville', serif;
+    color: #0f509b;
     font-style: bold;
     display: block;
     font-size: 48px;
-    margin: 40px 20% 10px 20%;
+    margin: 40px 15% 10px 15%;
 }
 
 h3 {
@@ -20,18 +28,79 @@ h3 {
     display: block;
     font-style: italic;
     font-size: 30px;
-    margin: 40px 20% 10px 20%;
+    margin: 40px 15% 10px 15%;
+}
+
+h4 {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 p {
     font-family: 'Public Sans', sans-serif;
     font-size: 24px;
-    margin: 10px 20% 10px 20%;
+    margin: 10px 15% 10px 15%;
 }
 
 a {
     font-family: 'Libre Baskerville', serif;
-    color: #154b69;
+    color: #b42626;
     font-style: italic;
     text-decoration: none;
+    font-size: 24px;
+    margin: 10px 15% 10px 15%;
+}
+
+p a {
+    font-family: 'Libre Baskerville', serif;
+    color: #b42626;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px 4px 10px 4px;
+}
+
+.tiles {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding: 0px;
+    flex-wrap: wrap
+}
+
+a.article {
+    display: inline-flex;
+    transition: 0.8s;
+    width: 45%;
+    height: 180px;
+    border-radius: 25px;
+    box-shadow: 20px 20px 40px #cac6bd;
+    margin: 10px 2% 10px 2%;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 48px;
+    font-style: italic;
+    text-shadow: 0px 0px 8px #000000;
+    color: #f8f3e8;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a.article:hover {
+    transition: 0.8s;
+    box-shadow: 20px 20px 40px #8d8a84;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
 }
