@@ -29,6 +29,8 @@ h2 {
     display: block;
     font-size: 60px;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -45,7 +47,7 @@ h4 {
     display: block;
     font-style: italic;
     font-size: 30px;
-    margin: 40px 15% 10px 15%;
+    margin: 20px 15% 10px 15%;
 }
 
 h5 {
@@ -57,7 +59,7 @@ h5 {
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 p {
@@ -80,7 +82,7 @@ p a {
     display: block;
     margin: auto;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 
@@ -124,7 +126,7 @@ a.article {
     display: inline-flex;
     transition: 0.8s;
     width: 45%;
-    min-height: 180px;
+    min-height: 240px;
     height: auto;
     border-radius: 25px;
     box-shadow: 20px 20px 40px #cac6bd;
