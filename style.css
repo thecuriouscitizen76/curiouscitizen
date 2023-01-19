@@ -79,6 +79,7 @@ p {
     font-family: 'Public Sans', sans-serif;
     font-size: 24px;
     margin: 10px 20% 10px 20%;
+    line-height: 48px;
 }
 
 p a {
@@ -91,7 +92,7 @@ p a {
 }
 
 .menu {
-    width: 70%;
+    width: 60%;
     display: block;
     margin: auto;
     text-align: center;
@@ -104,11 +105,11 @@ p a {
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    letter-spacing: 12px;
+    letter-spacing: 14px;
     font-family: 'Public Sans', sans-serif;
     color: #b42626;
-    font-size: 24px;
-    padding: 10px 100px 10px 100px;
+    font-size: 18px;
+    padding: 10px 40px 10px 40px;
 }
 
 .menu a:hover {
