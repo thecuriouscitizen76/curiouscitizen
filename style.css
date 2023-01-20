@@ -59,7 +59,7 @@ h5 {
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 h6 {
@@ -97,8 +97,11 @@ p a {
     margin: auto;
     align-items: center;
     justify-content: center;
-    padding-top: 0px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    background-color: #f8f3e8;
+    top: 0px;
 }
 
 .menu a {
