@@ -39,7 +39,7 @@ h3 {
     font-style: bold;
     display: block;
     font-size: 36px;
-    margin: 40px 10% 10px 10%;
+    margin: 40px 5% 10px 5%;
 }
 
 h4 {
@@ -47,7 +47,7 @@ h4 {
     display: block;
     font-style: italic;
     font-size: 24px;
-    margin: 20px 10% 10px 10%;
+    margin: 20px 5% 10px 5%;
 }
 
 h5 {
@@ -78,8 +78,8 @@ h6 {
 p {
     font-family: 'Public Sans', sans-serif;
     font-size: 40px;
-    margin: 10px 10% 10px 10%;
-    line-height: 60px;
+    margin: 10px 5% 10px 5%;
+    line-height: 72px;
 }
 
 p a {
@@ -87,7 +87,7 @@ p a {
     color: #b42626;
     font-style: italic;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 40px;
     margin: 10px 2px 10px 2px;
 }
 
@@ -183,7 +183,7 @@ a.button {
     text-transform: uppercase;
     color: #0f509b;
     letter-spacing: 12px;
-    font-size: 18px;
+    font-size: 40px;
     text-align: center;
     height: 30px;
 }
@@ -236,7 +236,7 @@ form {
     text-transform: uppercase;
     color: #0f509b;
     letter-spacing: 12px;
-    font-size: 18px;
+    font-size: 40px;
     text-align: center;
     height: 60px;
 }
