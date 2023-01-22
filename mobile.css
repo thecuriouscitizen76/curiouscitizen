@@ -174,10 +174,10 @@ a.button {
     align-items: center;
     text-decoration: none;
     background-color: #f8f3e8;
-    border: 1px solid #0f509b;
+    border: 2px solid #0f509b;
     padding: 40px;
     margin: 20px;
-    padding-left: 24px;
+    padding-left: 48px;
     font-family: 'Libre Baskerville', serif;
     font-style: bold;
     text-transform: uppercase;
@@ -227,10 +227,10 @@ form {
 
 .form button {
     background-color: #f8f3e8;
-    border: 1px solid #0f509b;
+    border: 2px solid #0f509b;
     padding: 40px;
     margin: 20px;
-    padding-left: 24px;
+    padding-left: 48px;
     font-family: 'Libre Baskerville', serif;
     font-style: bold;
     text-transform: uppercase;
