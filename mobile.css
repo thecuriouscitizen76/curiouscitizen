@@ -226,13 +226,15 @@ form {
 }
 
 .form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f8f3e8;
     border: 2px solid #0f509b;
     padding: 40px;
     margin: 20px;
     padding-left: 48px;
     font-family: 'Libre Baskerville', serif;
-    font-style: bold;
     text-transform: uppercase;
     color: #0f509b;
     letter-spacing: 12px;
