@@ -175,7 +175,7 @@ a.button {
     text-decoration: none;
     background-color: #f8f3e8;
     border: 1px solid #0f509b;
-    padding: 16px;
+    padding: 40px;
     margin: 20px;
     padding-left: 24px;
     font-family: 'Libre Baskerville', serif;
@@ -228,7 +228,7 @@ form {
 .form button {
     background-color: #f8f3e8;
     border: 1px solid #0f509b;
-    padding: 16px;
+    padding: 40px;
     margin: 20px;
     padding-left: 24px;
     font-family: 'Libre Baskerville', serif;
