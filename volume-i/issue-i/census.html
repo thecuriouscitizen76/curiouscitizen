@@ -42,7 +42,7 @@
         A couple years after the 2020 Census, it became clear to the U.S. Census Bureau and to journalists that there were serious errors
         in its final data.  Fourteen states had statistically significant miscounts of up to 7%.  Three seats in the House of Representatives
         were assigned to states that should not have them, and consequentially three seats in the House were not assigned to states that
-        deserve them.  Have we observed a normal or expected degree of error?  What factors negatively affected the integrity of the 2020 U.S. Census?
+        deserve them.  Is this a normal or expected degree of error?  What factors negatively affected the integrity of the 2020 U.S. Census?
         </p>
 
         <h3>Errors in the 2020 U.S. Census</h3>
@@ -89,13 +89,15 @@
         <a href="https://www.heritage.org/election-integrity/report/census-bureau-errors-distort-congressional-representation-the-states">analysis</a>
         conducted by the Heritage Foundation, Florida should have received two additional seats in the House of Representatives.  Texas should have
         received one additional seat.  Minnesota and Rhode Island both maintained a seat that they each should have lost.  Colorado gained a seat to which
-        the state had no claim.
+        the state had no claim.  This totals to the erroneous assignment of three Congressional seats, which significantly affects the balance
+        of power in the lesser house of our Congress.
         </p>
 
         <p>
-        For an aside, let us focus on Minnesota specifically.  Alarmingly, Minnesota's population was overcounted by more than
+        As an aside, let us focus on Minnesota specifically.  Alarmingly, Minnesota's population was overcounted by more than
         210,000 residents.  However, if the U.S. Census Bureau had counted merely 26 fewer residents, the state would have lost its undeserved
-        Congressional seat.  This margin is so small that both collection and processing methodologies must be scrutinized to the greatest extent.
+        Congressional seat.  Because such a small error can have such a large effect, both collection and processing methodologies must be
+        scrutinized to the greatest extent to mitigate such effects in future Census Bureau surveys.
         </p>
 
         <h3>Errors in the 2010 U.S. Census</h3>
@@ -162,7 +164,7 @@
         <p>
         According to
         <a href="https://mit-serc.pubpub.org/pub/differential-privacy-2020-us-census/release/1">this report</a>, published by the Schwarzman College
-        of Computing at the Massachusetts Institute of Technology, differential privacy methods involve integrating "carefully structured random noise"
+        of Computing at the Massachusetts Institut A couple years after the 2020 Census, it became clear to the U.S. Census Bureau and to journalists that there were serious errors in its final data. Fourteen states had statistically significant miscounts of up to 7%. Three seats in the House of Representatives were assigned to states that should not have them, and consequentially three seats in the House were not assigned to states that deserve them. Have we observed a normal or expected degree of error? What factors negatively affected the integrity of the 2020 U.S. Census? e of Technology, differential privacy methods involve integrating "carefully structured random noise"
         into census calculations according to a cryptographic algorithm invented in 2006.  The report also claims he U.S. Census Bureau has always
         integrated random noise into its published data in order to protect the privacy of census respondents.  However, the new approach based on
         differential privacy was designed to be more transparent, as in previous years, neither the error's size nor its integration mechanism
@@ -194,19 +196,76 @@
         However, when the 2020 Census data came in and the results were analyzed in the context of the Post-Enumeration Survey, it was clear that
         the data contained unacceptable levels of error.  It is unclear whether or not new statistical methods based on differential privacy
         were responsible for the error; such a question can only be explored further by understanding the function of the differential privacy
-        algorithm.
+        algorithm as well as the means by which it was employed.
         </p>
 
         <h4>A Quick Look Inside Differential Privacy</h4>
 
         <p>
-        Text begins here.
+        Differential privacy is a "noise infusion" technique in which randomly generated "noise" values are added to confidential individual data
+        before aggregation.  Because of this infusion, a database reconstruction attack on the published data would yield the "noisy" confidential
+        data as opposed to the original.  The amount of noise added to the dataset is tunable based on a tunable parameter &epsilon; (epsilon).
         </p>
 
-        <h4>Did Differential Privacy Affect the Accuracy of the 2020 Census?</h4>
+        <p>
+        When &epsilon; = 0, an infinite amount of noise is added to the original data.  In this scenario, the confidential data maintains 100% of its
+        privacy, but the published data will retain 0% of its accuracy.  When &epsilon; = &infin;, no noise is added to the original data.  In this
+        scenario, the confidential data maintains 0% of its original privacy, but the published data will retain 100% of its accuracy.
+        </p>
 
         <p>
-        Text begins here.
+        The U.S. Census Bureau announced that in 2020, unlike in previous years, it would release all privacy protection information, including software
+        source code and &epsilon; values.  It appears, therefore, that this process would result in increased Census transparency and accuracy.
+        Unfortunately, after the differential privacy techniques were announced, multiple factors have called into question the validity of the
+        2020 U.S. Census redistricting data.
+        </p>
+
+        <h4>Alabama Lawsuit against Census Bureau</h4>
+
+        <p>
+        In March 2021, the Census Bureau announced that U.S. redistricting data would be released in August of the same year, instead of on March 31
+        as originally planned.  The Bureau cited Covid-19 lockdown measures limiting field operations as their primary reason for this change.
+        </p>
+
+        <p>
+        That month, the state of Alabama filed a <a href="https://www.alabamaag.gov/Documents/news/Census%20Data%20Manipulation%20Lawsuit.pdf">lawsuit</a> 
+        against the United States Census Bureau, insisting that the data be released on March 31 as originally planned.  Alabama also insisted in its suit
+        that the U.S. Census Bureau should be prohibited from using differential privacy techniques.  Alabama claimed that "the privacy safeguards that
+        the Census Bureau used for the 2010 decennial census and redistricting data appear to have worked extremely well" and that there have been "no
+        reports that anyone outside the Bureau has gained access to the responses of a particular identified person" through a database reconstruction
+        attack.
+        </p>
+
+        <p>
+        Alabama also noted correctly that differential privacy techniques would allow the Census Bureau to publish inaccurate values for the population
+        of each census block, and that this in turn would affect Alabama's ability in "drawing districts that provide its residents fair representation."
+        </p>
+
+        <p>
+        Finally, Alabama insisted that the Census data be released on time (in March rather than in August) in order to allow proper time to ensure that
+        the 2022 state elections in Alabama were conducted fairly, with properly drawn voting districts, and fully in accordance with Alabama state law.
+        </p>
+
+        <p>
+        According to the Schwarzman College's report as linked above, a total of sixteen other states joined Alabama's lawsuit.  However, on September 9,
+        2021, the federal judges overseeing the lawsuit chose to reject both requests (see
+        <a href="https://www.npr.org/2021/06/29/992912397/a-supreme-court-fight-over-census-data-privacy-and-redistricting-is-likely-comin">here</a> for
+        more information).
+        </p>
+
+        <h4>The Bureau's Failure to Release Privacy Techniques for Redistricting</h4>
+
+        <p>
+        According to the Schwarzman report, on August 12, 2021, the U.S. Census redistricting data were released as according to the updated schedule.
+        In October, the Bureau published a 37-page report explaining differential privacy, the 2010 reconstruction attack experiment, and the allocation
+        of noise amounts (what the value of &epsilon; should be).  However, the report did not explain the process by which the Bureau decided upon the
+        necessary values of &epsilon;.
+        </p>
+
+        <p>
+        Additionally, according to the Schwarzman report, the Census Bureau made significant changes (not specified by the report) to its differential
+        privacy algorithm between its initial announcement and before publishing the redistricting data in August.  The Census Bureau never released
+        these changes or on how it decided upon how much noise would be added to the dataset (what the value of &epsilon; should be).
         </p>
 
         <h3>Conclusions</h3>
@@ -219,12 +278,32 @@
         </p>
 
         <p>
-        This introduction of significant error into United States Census data aligns with the introduction of new data privacy protection techniques
-        based on cryptographic differential privacy.  Continue...
+        This introduction of significant error into United States Census data aligns chronologically with the introduction of new data privacy protection
+        techniques based on cryptographic differential privacy.  A total of seventeen states joined a lawsuit against the Census Bureau to argue against the
+        use of differential privacy techniques due to concerns that differential privacy would create an unfair redistricting process for the 2022
+        elections and beyond.  This lawsuit was later dismissed by federal judges.
+        </p>
+
+        <p>
+        In August 2021, after the Census Bureau released redistricting data to be used beginning in 2022, it became clear that three Congressional seats
+        had been improperly assigned due to population miscounts.  According to the lawsuit, differential privacy techniques did not affect the total
+        state population count.  However, the 2020 Census had large, unexplained discrepancies in state populations with magnitudes up to 7%, unlike
+        the 2010 Census, in which error was equally distributed among the several states.
+        </p>
+
+        <p>
+        Further research and litigation will likely soon reveal the cause for the erroneous deviations in state populations as counted by the 2020 U.S.
+        Census, as for now it is unclear whether or not the new data privacy protection methods had a negative effect on the Census Bureau's ability to
+        publish accurate data.
         </p>
 
         <h3>Thanks</h3>
-    
+        
+        <p>
+        This article was inspired by <a href="https://mit-serc.pubpub.org/pub/differential-privacy-2020-us-census/release/1">this report</a> published
+        by MIT's Schwarzman College of Computing.
+        </p>
+
         <div class="footer">
             <div class="form">
                 <a class="button" href="../../subscribe.html">Subscribe</a>
