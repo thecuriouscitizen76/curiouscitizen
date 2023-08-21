@@ -6,6 +6,22 @@
 
 \menu
 
-# About
+# About \it{The Curious Citizen}
+
+## Mission of \it{The Curious Citizen}
 
 ~ More information coming soon.
+
+## Why \it{The Curious Citizen} Was Established
+
+~ More information coming soon.
+
+## Why Can There Be "No Freedom Apart from the Truth"?
+
+~ More information coming soon.
+
+## Copyright
+
+~ More information coming soon.
+
+\footer{"There can be no freedom apart from the truth."}
