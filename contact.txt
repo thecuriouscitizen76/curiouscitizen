@@ -1,0 +1,13 @@
+\pagename{Contact}
+
+\header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
+
+\subtitle{Pro Deo Ecclesia Familia et Patria}
+
+\menu
+
+# Contact Us
+
+~ Please contact the webmaster at the following e-mail address: \href{thecuriouscitizen76@gmail.com}{mailto:thecuriouscitizen76@gmail.com}
+
+~ We welcome website-related feedback, suggestions for future articles, tips or corrections, requests for additional information, \it{et cetera}.

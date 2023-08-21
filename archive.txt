@@ -1,0 +1,14 @@
+\pagename{Archive}
+
+\header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
+
+\subtitle{Pro Deo Ecclesia Familia et Patria}
+
+\menu
+
+# Archive
+
+\tiles {
+    \tile{Volume I}{media/books.jpg}{volume-i/index.html}
+    \tile{Volume II}{media/books.jpg}{volume-ii/index.html}
+}
