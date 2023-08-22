@@ -1,0 +1,13 @@
+\pagename{Page Not Found}
+
+\header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
+
+\subtitle{Pro Deo Ecclesia Familia et Patria}
+
+\menu
+
+# Page Not Found
+
+~ Our sincerest apologies.  It appears the page you are looking for does not exist.
+
+~ \href{Return Home}{https://curiouscitizen.org/}
