@@ -10,11 +10,6 @@
 
 ### Issue I
 
-~ Published January 23, 2023.
-
-\tiles {
-    \tile {Was Darwin Wrong?}{media/dna.jpg}{volume-i/issue-i/darwin.html}
-    \tile {Integrity of the U.S. Census}{media/census.jpg}{volume-i/issue-i/census.html}
-}
+~ Volume I, Issue I of \it{The Curious Citizen} is coming soon.
 
 \footer{"There can be no freedom apart from the truth."}
