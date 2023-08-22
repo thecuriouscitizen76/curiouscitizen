@@ -8,10 +8,10 @@
 
 # Was Darwin Wrong?
 
-## Issues with the Darwinian theory of evolution
+\subtitle{Issues with the Darwinian theory of evolution}
 
-### Volume I, Issue I
+\subsubtitle{Volume I, Issue I}
 
-### Published January 23, 2023
+\subsubtitle{Published January 23, 2023}
 
 ~ Article coming soon.

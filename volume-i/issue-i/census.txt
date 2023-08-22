@@ -8,10 +8,10 @@
 
 # Integrity of the U.S. Census
 
-## Errors and their effects in the 2020 U.S. Census
+\subtitle{Errors and their effects in the 2020 U.S. Census}
 
-### Volume I, Issue I
+\subsubtitle{Volume I, Issue I}
 
-### Published January 23, 2023
+\subsubtitle{Published January 23, 2023}
 
 ~ Article coming soon.
