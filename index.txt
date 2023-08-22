@@ -6,16 +6,6 @@
 
 \menu
 
-## Volume II
-
-### Issue I
-
-~ Published [date].
-
-\tiles {
-    \tile{Liberty or License?}{media/liberty.jpg}{volume-ii/issue-i/liberty.html}
-}
-
 ## Volume I
 
 ### Issue I

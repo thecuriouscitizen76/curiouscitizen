@@ -8,12 +8,4 @@
 
 # Volume II
 
-## Issue I
-
-~ Published [date].
-
-\tiles {
-    \tile {Liberty or License?}{../media/liberty.jpg}{issue-i/liberty.html}
-}
-
 \footer{"There can be no freedom apart from the truth."}
