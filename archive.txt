@@ -10,7 +10,7 @@
 # Archive
 
 \tiles {
-    \tile{Volume I}{media/books.jpg}{volume-i/index.html}
+    \tile{Volume I}{/media/books.jpg}{/volume-i}
 }
 
 \footer{"There can be no freedom apart from the truth."}
