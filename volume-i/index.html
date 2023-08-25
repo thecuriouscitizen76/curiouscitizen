@@ -105,7 +105,7 @@
         position: sticky;
         background-color: #f8f3e8;
         top: 0px;
-        height: 60px;
+        height: 120px;
         flex-wrap: wrap;
     }
     
@@ -118,7 +118,10 @@
         font-family: 'Public Sans', sans-serif;
         color: #b42626;
         font-size: 32px;
-        width: 50%;
+        margin: 0;
+        padding: 0;
+        width: 45%;
+        justify-content: space-evenly;
     }
     
     .menu a:hover {
@@ -129,13 +132,14 @@
         font-family: 'Libre Baskerville', serif;
         text-transform: uppercase;
         letter-spacing: 12px;
-        font-size: 18px;
+        font-size: 36px;
         display: flex;
         flex-direction: column;
         width: 100%;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 40px;
+        color: black;
     }
     
     .tiles {
@@ -442,6 +446,7 @@
         color: #b42626;
         font-size: 18px;
         padding: 10px 40px 10px 40px;
+        justify-content: space-evenly;
     }
     
     .menu a:hover {
@@ -502,6 +507,8 @@
     div.topblock {
         height: 200px;
         overflow: hidden;
+        margin: 0;
+        padding: 0;
     }
 }</style>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Public+Sans:wght@300&display=swap" rel="stylesheet">
@@ -588,9 +595,42 @@
         font-size: 24px;
     }
 
-    @media screen and (max-screen-width: 480px) {
+    @media screen and (max-device-width: 480px) {
         .stuck {
-            display: hidden;
+            position: sticky;
+            top: 0px;
+            height: auto;
+            text-align: center;
+            height: 120px;
+        }
+
+        .stuck a {
+            display: none;
+        }
+
+        .stuck:before {
+            content: "The Curious Citizen";
+            text-align: center;
+            padding: 0;
+            font-size: 36px;
+        }
+
+        .unstuck {
+            position: absolute;
+            top: 260px;
+            height: auto;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            height: 120px;
+        }
+
+        .unstuck a {
+            font-size: 28px;
+            padding-left: 20px;
+            padding-right: 20px;
+            align-items: center;
         }
     }
 </style>
