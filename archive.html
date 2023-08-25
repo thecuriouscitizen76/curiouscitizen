@@ -105,6 +105,7 @@
         position: sticky;
         background-color: #f8f3e8;
         top: 0px;
+        flex-wrap: wrap;
     }
     
     .menu a {
@@ -116,7 +117,8 @@
         font-family: 'Public Sans', sans-serif;
         color: #b42626;
         font-size: 32px;
-        padding: 10px 25px 10px 25px;
+        padding: 4px 25px 14px 25px;
+        width: 50%;
     }
     
     .menu a:hover {
@@ -144,10 +146,10 @@
         flex-wrap: wrap;
     }
     
-    a.article {
+    a.tile {
         display: inline-flex;
         transition: 0.8s;
-        width: 45%;
+        width: 100%;
         min-height: 240px;
         height: auto;
         border-radius: 25px;
@@ -164,9 +166,11 @@
         background-repeat: no-repeat;
         background-position: center;
         text-decoration: none;
+        background-size: cover;
+        padding: 0;
     }
     
-    a.article:hover {
+    a.tile:hover {
         transition: 0.8s;
         box-shadow: 20px 20px 40px #8d8a84;
     }
@@ -291,9 +295,9 @@
         flex-wrap: wrap;
     }
     
-    a.article {
+    a.tile {
         display: inline-flex;
-        width: 45%;
+        width: 100%;
         min-height: 240px;
         height: auto;
         border-radius: 25px;
@@ -311,6 +315,8 @@
         background-repeat: no-repeat;
         background-position: center;
         text-decoration: none;
+        background-size: cover;
+        padding: 0;
     }
 }
 
@@ -462,7 +468,7 @@
     a.tile {
         display: inline-flex;
         transition: 0.8s;
-        width: 45%;
+        width: 100%;
         min-height: 240px;
         height: auto;
         border-radius: 25px;
@@ -479,6 +485,8 @@
         background-repeat: no-repeat;
         background-position: center;
         text-decoration: none;
+        background-size: cover;
+        padding: 0;
     }
     
     a.tile:hover {
