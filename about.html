@@ -105,6 +105,7 @@
         position: sticky;
         background-color: #f8f3e8;
         top: 0px;
+        height: 60px;
         flex-wrap: wrap;
     }
     
@@ -172,6 +173,11 @@
     a.tile:hover {
         transition: 0.8s;
         box-shadow: 20px 20px 40px #8d8a84;
+    }
+
+    div.topblock {
+        height: 200px;
+        overflow: hide;
     }
 }
 
@@ -492,6 +498,11 @@
         transition: 0.8s;
         box-shadow: 20px 20px 40px #8d8a84;
     }
+
+    div.topblock {
+        height: 200px;
+        overflow: hidden;
+    }
 }</style>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Public+Sans:wght@300&display=swap" rel="stylesheet">
 <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
@@ -501,18 +512,71 @@
 
 
 
-<h1> <a href="https://www.curiouscitizen.org/">The Curious Citizen</a> </h1>
+<div class="topblock"><h1> <a href="https://www.curiouscitizen.org/">The Curious Citizen</a> </h1><h5>Pro Deo Ecclesia Familia et Patria</h5></div>
 
 
-<h5>Pro Deo Ecclesia Familia et Patria</h5>
 
-
-<div class="menu">
-    <a href="/index.html">HOME</a>
-    <a href="/about.html">ABOUT</a>
-    <a href="/archive.html">ARCHIVE</a>
-    <a href="/contact.html">CONTACT</a>
+<div class="menu bar">
+    <div class="menu stuck">
+        <a href="/index.html">HOME</a>
+        <a href="/about.html">ABOUT</a>
+        <a href="/archive.html">ARCHIVE</a>
+        <a href="/contact.html">CONTACT</a>
+    </div>
+    
+    <div class="menu unstuck">
+        <a href="/index.html">HOME</a>
+        <a href="/about.html">ABOUT</a>
+        <a href="/archive.html">ARCHIVE</a>
+        <a href="/contact.html">CONTACT</a>
+    </div>
 </div>
+
+<style>
+    .unstuck {
+        height: 60px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 200px;
+        z-index: 1;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .stuck {
+        width: auto;
+        height: 60px;
+        position: sticky;
+        top: 0px;
+        z-index: 0;
+        padding-left: 0;
+        padding-right: 0;
+        overflow: hidden;
+    }
+
+    .bar {
+        padding: 0px;
+        margin: 0px;
+        height: 60px;
+        display: contents;
+    }
+
+    .stuck:before {
+        content: "The Curious Citizen";
+        padding-right: 60px;
+        height: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        text-decoration: none;
+        text-transform: none;
+        font-weight: bold;
+        font-family: 'Libre Baskerville', serif;
+        color: #0f509b;
+        font-style: italic;
+        font-size: 24px;
+    }
+</style>
 
 <h2>About <em>The Curious Citizen</em> </h2>
 

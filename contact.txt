@@ -1,8 +1,9 @@
 \pagename{Contact}
 
-\header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
-
-\subtitle{Pro Deo Ecclesia Familia et Patria}
+\topblock{
+    \header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
+    \subtitle{Pro Deo Ecclesia Familia et Patria}
+}
 
 \menu
 
