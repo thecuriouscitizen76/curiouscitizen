@@ -8,8 +8,14 @@
 
 # Contact Us
 
-~ Please contact the webmaster at the following e-mail address: \href{thecuriouscitizen76@gmail.com}{mailto:thecuriouscitizen76@gmail.com}
+~ We welcome suggestions for future articles, tips or corrections, website-related feedback, requests for additional information, \it{et cetera}.
 
-~ We welcome website-related feedback, suggestions for future articles, tips or corrections, requests for additional information, \it{et cetera}.
+## For Suggestions, Tips, Corrections, or Queries
+
+~ Please contact the editor at the following e-mail address: \href{editor@curiouscitizen.org}{mailto:editor@curiouscitizen.org}
+
+## For Website-Related Feedback
+
+~ Please contact the webmaster at the following e-mail address: \href{webmaster@curiouscitizen.org}{mailto:webmaster@curiouscitizen.org}
 
 \footer{"There can be no freedom apart from the truth."}
