@@ -541,7 +541,43 @@
     </div>
 </div>
 
+<div class="to-top-cover"></div>
+
+<a href="#" class="to-top"></a>
+
 <style>
+    .to-top {
+        position: fixed;
+        bottom: 80px;
+        right: 80px;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 0;
+        border-radius: 20%;
+        color: white;
+        background-color: #0f509b;
+        font-size: 24px;
+    }
+
+    .to-top:before {
+        content: "\2191";
+    }
+
+    .to-top-cover {
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        width: 40px;
+        height: 40px;
+        background-color: #f8f3e8;
+        z-index: 1;
+        padding: 40px;
+    }
+
     .unstuck {
         height: 60px;
         width: 100%;
@@ -597,7 +633,34 @@
         font-size: 24px;
     }
 
+    @media print {
+        .to-top {
+            display: none;
+        }
+
+        .to-top-cover {
+            display: none;
+        }
+    }
+
     @media screen and (max-device-width: 480px) {
+        .to-top {
+            position: fixed;
+            bottom: 80px;
+            right: 80px;
+            width: 80px;
+            height: 80px;
+        }
+
+        .to-top-cover {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+            padding: 40px;
+            width: 80px;
+            height: 80px;
+        }
+
         .stuck {
             position: sticky;
             top: 0px;
