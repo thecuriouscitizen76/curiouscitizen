@@ -11,6 +11,8 @@
 
 ~ We welcome suggestions for future articles, tips or corrections, website-related feedback, requests for additional information, \it{et cetera}.
 
+~ We also welcome guest articles for publication.  Please scroll down to the \it{For Article Submissions} section to learn about the process for article submission.
+
 ## For Suggestions, Tips, Corrections, or Queries
 
 ~ Please contact the editor at the following e-mail address: \href{editor@curiouscitizen.org}{mailto:editor@curiouscitizen.org}
@@ -18,5 +20,33 @@
 ## For Website-Related Feedback
 
 ~ Please contact the webmaster at the following e-mail address: \href{webmaster@curiouscitizen.org}{mailto:webmaster@curiouscitizen.org}
+
+## For Article Submissions
+
+~ \it{The Curious Citizen} welcomes guest submissions for publication.
+
+~ Please contact us with your submission according to the below guidelines at the following e-mail address: \href{submissions@curiouscitizen.org}{mailto:submissions@curiouscitizen.org}
+
+~ We will respond to your submission within one calendar week.
+
+### Guidelines for News
+
+~ E-mail subject line: \it{News Article Submission}
+
+~ Submissions should be between 250 and 1000 words in length.  Submissions that do not meet this requirement will still be considered for publication.  Submissions longer than 1000 words may be considered for publication in our Journal.
+
+~ Please attach your submission in PDF, DOCX, or TXT format.
+
+~ In your e-mail, please submit two suggested titles and two suggested subtitles for your article.
+
+### Guidelines for Journal
+
+~ E-mail subject line: \it{Journal Article Submission}
+
+~ Submissions should be between 1000 and 5000 words in length.  Submissions that do not meet this requirement will still be considered for publication.  Submissions shorter than 1000 words may be considered for publication in \it{The Curious Citizen} News.
+
+~ Please attach your submission in PDF, DOCX, or TXT format.
+
+~ In your e-mail, please submit two suggested titles and two suggested subtitles for your article.
 
 \footer{"There can be no freedom apart from the truth."}
