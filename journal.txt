@@ -1,4 +1,4 @@
-\pagename{Archive}
+\pagename{Journal}
 
 \topblock{
     \header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
@@ -7,10 +7,10 @@
 
 \menu
 
-# Archive
+# Journal
 
 \tiles {
-    \tile{Volume I}{/media/books.jpg}{/archive/volume-i}
+    \tile{Volume I}{/media/books.jpg}{/journal/volume-i}
 }
 
 \footer{"There can be no freedom apart from the truth."}

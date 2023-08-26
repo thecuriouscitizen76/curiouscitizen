@@ -1,4 +1,4 @@
-\pagename{Home}
+\pagename{News}
 
 \topblock{
     \header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
@@ -7,14 +7,8 @@
 
 \menu
 
-## News
+# News
 
 ~ \it{The Curious Citizen} News is coming soon.
-
-## Journal, Volume I
-
-### Issue I
-
-~ Volume I, Issue I of \it{The Curious Citizen} is coming soon.
 
 \footer{"There can be no freedom apart from the truth."}
