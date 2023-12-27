@@ -1,4 +1,4 @@
-\pagename{Volume I, Issue I}
+\pagename{My First Article}
 
 \topblock{
     \header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
@@ -7,8 +7,8 @@
 
 \menu
 
-# Volume I, Issue I
+# My First Article
 
-~ Volume I, Issue I of \it{The Curious Citizen} is coming soon.
+~ My first article is coming soon.
 
 \footer{"There can be no freedom apart from the truth."}
