@@ -1,3 +1,0 @@
-# Build script
-
-weblog build . --style citizen --sitename "The Curious Citizen" --icon --analytics analytics --menu menu
