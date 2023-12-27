@@ -1,0 +1,9 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HBH82LK35K"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HBH82LK35K');
+</script><body><div class="topblock"><h1> <a href="https://www.curiouscitizen.org/">The Curious Citizen</a> </h1><h5>Pro Deo Ecclesia Familia et Patria</h5></div>

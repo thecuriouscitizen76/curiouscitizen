@@ -1,0 +1,14 @@
+    <div class="menu stuck">
+        <a href="/">HOME</a>
+        <a href="/about">ABOUT</a>
+        <a href="/journal">JOURNAL</a>
+        <a href="/contact">CONTACT</a>
+    </div>
+    
+    <div class="menu unstuck">
+        <a href="/">HOME</a>
+        <a href="/about">ABOUT</a>
+        <a href="/journal">JOURNAL</a>
+        <a href="/contact">CONTACT</a>
+    </div>
+</div>
