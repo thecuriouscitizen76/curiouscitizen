@@ -1,0 +1,14 @@
+\pagename{My First Article}
+
+\topblock{
+    \header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
+    \subtitle{Pro Deo Ecclesia Familia et Patria}
+}
+
+\menu
+
+# My First Article
+
+~ My first article is coming soon.
+
+\footer{"There can be no freedom apart from the truth."}
