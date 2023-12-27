@@ -75,4 +75,66 @@
         font-style: italic;
         font-size: 24px;
     }
+    
+    @media print {
+        .to-top {
+            display: none;
+        }
+        
+        .to-top-cover {
+            display: none;
+        } 
+    }
+    
+    @media screen and (max-device-width: 480px) {
+        .to-top {
+            position: fixed; bottom: 80px; right: 80px; width: 80px; height: 80px;
+        }
+        
+        .to-top-cover {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+            padding: 40px;
+            width: 80px;
+            height: 80px;
+        }
+        
+        .stuck {
+            position: sticky;
+            top: 0px;
+            height: auto;
+            text-align: center;
+            height: 120px;
+        }
+        
+        .stuck a {
+            display: none;
+        }
+        
+        .stuck:before {
+            content: "The Curious Citizen";
+            text-align: center;
+            padding: 0;
+            font-size: 60px;
+        }
+        
+        .unstuck {
+            position: absolute;
+            top: 260px;
+            height: auto;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            height: 120px;
+        }
+        
+        .unstuck a {
+            font-size: 28px;
+            padding-left: 20px;
+            padding-right: 20px;
+            align-items: center;
+        }
+    }
 </style>
