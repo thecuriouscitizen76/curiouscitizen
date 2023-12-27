@@ -1,4 +1,4 @@
-\pagename{Volume I}
+\pagename{Volume I, Issue I}
 
 \topblock{
     \header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
