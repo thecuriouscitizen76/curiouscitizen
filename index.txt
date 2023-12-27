@@ -7,10 +7,6 @@
 
 \menu
 
-## News
-
-~ \it{The Curious Citizen} News is coming soon.
-
 ## Journal, Volume I
 
 ### Issue I
