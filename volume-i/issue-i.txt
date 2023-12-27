@@ -1,0 +1,14 @@
+\pagename{Volume I}
+
+\topblock{
+    \header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
+    \subtitle{Pro Deo Ecclesia Familia et Patria}
+}
+
+\menu
+
+# Volume I, Issue I
+
+~ Volume I, Issue I of \it{The Curious Citizen} is coming soon.
+
+\footer{"There can be no freedom apart from the truth."}

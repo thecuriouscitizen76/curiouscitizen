@@ -1,5 +1,9 @@
 # Analytics information
-analytics.txt
+analytics
 
 # Menu
-menu.txt
+menu
+
+# Shell scripts
+build
+deploy

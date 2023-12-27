@@ -29,24 +29,14 @@
 
 ~ We will respond to your submission within one calendar week.
 
-### Guidelines for News
-
-~ E-mail subject line: \it{News Article Submission}
-
-~ Submissions should be between 250 and 1000 words in length.  Submissions that do not meet this requirement will still be considered for publication.  Submissions longer than 1000 words may be considered for publication in our Journal.
-
-~ Please attach your submission in PDF, DOCX, or TXT format.
-
-~ In your e-mail, please submit two suggested titles and two suggested subtitles for your article.
-
-### Guidelines for Journal
+### Guidelines for Journal Article Submissions
 
 ~ E-mail subject line: \it{Journal Article Submission}
 
-~ Submissions should be between 1000 and 5000 words in length.  Submissions that do not meet this requirement will still be considered for publication.  Submissions shorter than 1000 words may be considered for publication in \it{The Curious Citizen} News.
+~ Submissions should be between 1000 and 5000 words in length.  Submissions that do not meet this requirement will still be considered for publication.
 
 ~ Please attach your submission in PDF, DOCX, or TXT format.
 
-~ In your e-mail, please submit two suggested titles and two suggested subtitles for your article.
+~ In your e-mail, please submit two suggested titles and two corresponding suggested subtitles for your article.
 
 \footer{"There can be no freedom apart from the truth."}
