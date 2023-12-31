@@ -1,4 +1,4 @@
-\pagename{My First Article}
+\pagename{Liberty or License?}
 
 \topblock{
     \header{\href{The Curious Citizen}{https://www.curiouscitizen.org/}}
@@ -7,9 +7,9 @@
 
 \menu
 
-# My First Article
+# Liberty or License?
 
-\subtitle{My Subtitle}
+\subtitle{On the true meaning of human freedom}
 
 \subsubtitle{Published on Month XX, 20XX}
 
