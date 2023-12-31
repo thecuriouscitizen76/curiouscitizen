@@ -7,10 +7,12 @@
 
 \menu
 
-## Journal, Volume I
+## Volume I
 
 ### Issue I
 
-~ Volume I, Issue I of \it{The Curious Citizen} is coming soon.
+\tiles {
+    \tile{Liberty or License?}{/media/liberty.jpg}{/volume-i/issue-i/liberty-or-license}
+}
 
 \footer{"There can be no freedom apart from the truth."}
