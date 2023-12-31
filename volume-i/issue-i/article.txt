@@ -9,6 +9,10 @@
 
 # My First Article
 
+\subtitle{My First Article's subtitle}
+
+\subsubtitle{Published Month XX, 20XX}
+
 ~ My first article is coming soon.
 
 \footer{"There can be no freedom apart from the truth."}
