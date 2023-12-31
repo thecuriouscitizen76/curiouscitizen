@@ -9,9 +9,9 @@
 
 # My First Article
 
-\subtitle{My First Article's subtitle}
+\subtitle{My First Subtitle}
 
-\subsubtitle{Published Month XX, 20XX}
+\subsubtitle{Published on Month XX, 20XX}
 
 ~ My first article is coming soon.
 
