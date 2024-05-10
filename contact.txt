@@ -39,4 +39,4 @@
 
 ~ In your e-mail, please submit two suggested titles and two corresponding suggested subtitles for your article.
 
-\footer{"There can be no freedom apart from the truth."}
+\footer{"You will know the truth, and the truth will make you free."}

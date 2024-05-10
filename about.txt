@@ -11,7 +11,7 @@
 
 ## Mission of \it{The Curious Citizen}
 
-~ The mission of \it{The Curious Citizen} is to advance a message of authentic human freedom which flows from knowledge of truth.
+~ The mission of \it{The Curious Citizen} is to share a message that fosters human flourishing and authentic freedom that flows from the knowledge and sharing of truth.
 
 ## Copyright
 
@@ -27,4 +27,4 @@
 ### Images
 ~ Unless otherwise indicated, all images are in the public domain.
 
-\footer{"There can be no freedom apart from the truth."}
+\footer{"You will know the truth, and the truth will make you free."}

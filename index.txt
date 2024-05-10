@@ -7,10 +7,10 @@
 
 \menu
 
-## Journal, Volume I
+## Volume I
 
 ### Issue I
 
 ~ Volume I, Issue I of \it{The Curious Citizen} is coming soon.
 
-\footer{"There can be no freedom apart from the truth."}
+\footer{"You will know the truth, and the truth will make you free."}
