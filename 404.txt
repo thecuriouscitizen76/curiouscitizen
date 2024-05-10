@@ -9,6 +9,8 @@
 
 # Page Not Found
 
-~ Our sincerest apologies.  It appears the page you are looking for does not exist.
+~ We're sorry... it seems the page you looking for has been relocated or doesn't exist.
 
 ~ \href{Return Home}{https://curiouscitizen.org/}
+
+\footer{"You will know the truth, and the truth will make you free."}

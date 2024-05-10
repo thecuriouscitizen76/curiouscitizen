@@ -15,4 +15,4 @@
     \tile{Liberty or License?}{/media/liberty.jpg}{/volume-i/issue-i/liberty-or-license}
 }
 
-\footer{"There can be no freedom apart from the truth."}
+\footer{"You will know the truth, and the truth will make you free."}
