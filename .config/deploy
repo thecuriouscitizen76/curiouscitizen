@@ -1,0 +1,14 @@
+#!/bin/bash
+# Deploy script
+
+# Build directory
+.config/build
+
+# Stage all changes
+git add --all
+
+# Commit to repository
+git commit
+
+# Push to remote
+git push origin master

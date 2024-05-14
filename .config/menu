@@ -1,0 +1,78 @@
+<div class="menu bar">
+
+<div class="menu stuck">
+
+<a href="/">HOME</a>
+<a href="/about">ABOUT</a>
+<a href="/journal">JOURNAL</a>
+<a href="/contact">CONTACT</a>
+
+</div>
+
+<div class="menu unstuck">
+
+<a href="/">HOME</a>
+<a href="/about">ABOUT</a>
+<a href="/journal">JOURNAL</a>
+<a href="/contact">CONTACT</a>
+
+</div>
+
+</div>
+
+<style>
+    .unstuck {
+        height: 60px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 208px;
+        z-index: 3;
+        padding: 0;
+    }
+    
+    .unstuck a {
+        font-size: 18px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .stuck {
+        width: auto;
+        height: 60px;
+        position: sticky;
+        top: 0px;
+        z-index: 2;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .stuck a {
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+        letter-spacing: 10px;
+    }
+    
+    .bar {
+        padding: 0px;
+        margin: 0px;
+        height: 60px;
+        display: contents;
+    }
+    
+    .stuck:before {
+        content: "The Curious Citizen";
+        padding-right: 60px;
+        height: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        text-decoration: none;
+        text-transform: none;
+        font-weight: bold;
+        font-family: 'Libre Baskerville', serif;
+        color: #0f509b;
+        font-style: italic;
+        font-size: 24px;
+    }
+</style>
