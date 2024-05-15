@@ -54,22 +54,30 @@
         padding-left: 40px;
         padding-right: 40px;
     }
-    
-    .stuck {
-        width: auto;
-        height: 60px;
-        position: sticky;
-        top: 0px;
-        z-index: 2;
-        padding: 0;
-        overflow: hidden;
+
+    @media screen and (max-device-width: 480px) {
+        .stuck {
+            display: none;
+        }
     }
-    
-    .stuck a {
-        font-size: 14px;
-        padding-left: 30px;
-        padding-right: 30px;
-        letter-spacing: 10px;
+
+    @media screen and (min-device-width: 480px) {
+        .stuck {
+            width: auto;
+            height: 60px;
+            position: sticky;
+            top: 0px;
+            z-index: 2;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        .stuck a {
+            font-size: 14px;
+            padding-left: 30px;
+            padding-right: 30px;
+            letter-spacing: 10px;
+        }
     }
     
     .bar {
