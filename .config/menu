@@ -21,25 +21,29 @@
 </div>
 
 <style>
-    .unstuck {
-        height: 60px;
-        width: 100%;
-        position: absolute;
-        left: 0;
-        top: 208px;
-        z-index: 3;
-        padding: 0;
-    }
-    
-    .unstuck a {
-        font-size: 18px;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-
     @media screen and (max-device-width: 480px) {
         .stuck {
             display: none;
+        }
+
+        .unstuck {
+            height: 120px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 240px;
+            z-index: 3;
+            padding: 0;
+        }
+        
+        .unstuck a {
+            font-size: 30px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        h2 {
+            margin-top: 140px;
         }
     }
 
@@ -59,6 +63,22 @@
             padding-left: 30px;
             padding-right: 30px;
             letter-spacing: 10px;
+        }
+
+        .unstuck {
+            height: 60px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 208px;
+            z-index: 3;
+            padding: 0;
+        }
+        
+        .unstuck a {
+            font-size: 18px;
+            padding-left: 40px;
+            padding-right: 40px;
         }
     }
     
